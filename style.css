@@ -1,0 +1,385 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Kanit", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  width: 1140px;
+  background-color: transparent;
+  justify-content: space-between;
+}
+.navbar-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.navbar-box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-box1 svg {
+  justify-content: center;
+  align-items: center;
+}
+.navbar-box2 {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar-box2 p {
+  font-size: 16px;
+  font-weight: 410;
+}
+.navbar-box3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.navbar-box3-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.navbar-box3-1i img {
+  display: flex;
+  width: 14px;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-box3-2 {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  width: 60px;
+  text-align: center;
+}
+
+/*main content*/
+
+.trip-page {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerbox {
+  width: 1140px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+.main-content1 {
+  background-color: white;
+  width: 1140px;
+}
+
+/*catogries*/
+
+.sec1 h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 4%;
+  padding: 35px;
+}
+.sec2-main {
+  display: flex;
+  justify-content: center;
+}
+.sec2-catogories {
+  display: flex;
+  width: 900px;
+  justify-content: space-evenly;
+}
+.sec2-catogories1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.sec2-catogories2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.sec2-catogories3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.sec2-catogories4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.sec2-catogories5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.sec2-catogories6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.sec2-catogories5 img {
+  width: 21px;
+}
+.sec2-catogories6 img {
+  width: 18px;
+}
+
+/*search bar*/
+.sec3-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+}
+.sec3-searchbox {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 25px;
+  width: 71%;
+  justify-content: space-between;
+  padding: 6px;
+}
+.sec3-search-1 {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+.sec3-search-1 i {
+  padding: 10px;
+}
+.sec3-search-1 input {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+}
+.sec3-search-1 input::placeholder {
+  color: #000;
+}
+.sec3-search-2 {
+  border: solid #84e9bd 2px;
+  background-color: #84e9bd;
+  border-radius: 25px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  text-align: center;
+}
+
+/*ui/ux*/
+
+.ad-box1 {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.box-img1 {
+  width: 100%;
+  background-color: #d8d5fb;
+  border-radius: 10px;
+}
+.box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1150px;
+}
+.box-sec1 p {
+  font-size: 12px;
+  color: #301d49;
+}
+.box-sec1 h4 {
+  background-color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.box-sec1 {
+  display: flex;
+  position: absolute;
+  top: 22%;
+  align-items: center;
+  gap: 5px;
+  left: 14%;
+}
+.box-sec2 {
+  position: absolute;
+  top: 28%;
+  left: 14%;
+  width: 40%;
+}
+.box-sec2 h2 {
+  font-family: Arial;
+  font-weight: bolder;
+  font-size: 50px;
+  flex-wrap: wrap;
+  color: #301d49;
+}
+.box-sec3 {
+  position: absolute;
+  top: 38%;
+  left: 14%;
+  margin-top: 80px;
+  width: 30%;
+}
+.box-sec3 p {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 25px;
+  flex-wrap: wrap;
+  color: #301d49;
+}
+.box-sec4 {
+  background-color: #301d49;
+  padding: 15px 20px;
+  width: 160px;
+  border-radius: 40px;
+  position: absolute;
+  top: 44%;
+  left: 14%;
+  margin-top: 150px;
+  font-family: Arial;
+}
+.box-sec4-1 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.box-sec4-1 img {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+.box-sec4-1 p {
+  font-size: 16px;
+  color: white;
+  font-family: Arial;
+}
+
+/*best rest 2*/
+
+.best-rest1 {
+  margin-top: 50px;
+}
+.best-rest2 {
+  margin-top: 18px;
+}
+.best-rest2-1d {
+  position: relative;
+}
+.a {
+  position: absolute;
+  bottom: 7px;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  width: 100%;
+}
+.a h2 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 3px;
+}
+.best-rest2-2d {
+  position: relative;
+}
+.b {
+  position: absolute;
+  bottom: 7px;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  width: 100%;
+}
+.b h2 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 3px;
+}
+.best-rest2-3d {
+  position: relative;
+}
+.c {
+  position: absolute;
+  bottom: 7px;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  width: 100%;
+}
+.c h2 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 3px;
+}
+.best-rest2-4d {
+  position: relative;
+}
+.d {
+  position: absolute;
+  bottom: 7px;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  width: 100%;
+}
+.d h2 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 3px;
+}
+.best-rest2-d img {
+  width: 100%;
+  border-radius: 10px;
+}
+.best-rest2-d {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+/*inspired*/
+/*
+.a {
+  position: absolute;
+  bottom: 7px;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  width: 100%;
+}
+.a h2 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 3px;
+}
+*/

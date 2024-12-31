@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trip Advisor</title>
+    <!--style-->
+    <link rel="stylesheet" href="./style.css" />
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--main nav-->
+    <div class="container-nav">
+      <!--navbar-->
+      <div class="navbar">
+        <div class="navbar-box">
+          <!--title-->
+          <div class="navbar-box1">
+            <svg width="180px" height="71px" viewBox="0 0 3354.111 713.496">
+              <g>
+                <path
+                  d="M3335.258,476.767c-10.404,0-18.854,8.45-18.854,18.854c0,10.404,8.449,18.854,18.854,18.854
+		c10.402,0,18.854-8.45,18.854-18.854C3354.111,485.217,3345.66,476.767,3335.258,476.767z M3335.258,511.485
+		c-8.77,0-15.865-7.136-15.865-15.864c0-8.77,7.135-15.864,15.865-15.864c8.77,0,15.904,7.135,15.904,15.864
+		C3351.162,504.35,3344.027,511.485,3335.258,511.485z M3341.396,492.392c0-3.428-2.432-5.461-6.02-5.461h-6.02v17.18h2.949v-6.218
+		h3.229l3.109,6.218h3.189l-3.428-6.855C3340.24,496.418,3341.396,494.743,3341.396,492.392z M3335.258,495.222h-2.91v-5.699h2.91
+		c1.992,0,3.188,0.996,3.188,2.83C3338.445,494.226,3337.211,495.222,3335.258,495.222z M1063.508,285.956v-45.6h-69.914v271.288
+		h69.914V348.976c0-29.457,18.894-43.927,48.351-43.927h38.266v-64.692h-32.686C1091.849,240.356,1069.607,253.709,1063.508,285.956
+		z M1215.615,133.053c-23.916,0-42.252,18.894-42.252,42.81c0,23.358,18.336,42.252,42.252,42.252s42.252-18.894,42.252-42.252
+		C1257.866,151.946,1239.531,133.053,1215.615,133.053z M1180.737,511.645h69.756V240.356h-69.756V511.645z M1582.766,376
+		c0,77.448-62.779,140.229-140.228,140.229c-31.251,0-59.591-10.244-82.312-27.544v102.601h-69.755V240.356h69.755v22.959
+		c22.721-17.299,51.061-27.543,82.312-27.543C1519.987,235.772,1582.766,298.552,1582.766,376z M1512.573,376
+		c0-42.052-34.12-76.173-76.173-76.173s-76.173,34.121-76.173,76.173c0,42.053,34.121,76.173,76.173,76.173
+		C1478.453,452.173,1512.573,418.093,1512.573,376z M2795.152,352.204l-40.697-11.161c-26.785-6.976-37.189-15.187-37.189-29.337
+		c0-13.792,14.668-23.438,35.635-23.438c19.971,0,35.635,13.074,35.635,29.815v1.554h64.295v-1.554
+		c0-49.228-40.139-82.312-99.93-82.312c-59.191,0-102.201,33.044-102.201,78.604c0,35.436,23.477,62.142,64.453,73.223
+		l38.984,10.643c29.615,8.211,40.617,17.3,40.617,33.603c0,17.18-15.904,28.739-39.582,28.739
+		c-24.674,0-41.295-15.626-41.295-38.824v-1.555h-68.24v1.555c0,55.645,44.803,94.548,108.979,94.548
+		c61.822,0,106.705-37.986,106.705-90.283C2861.32,400.354,2849.84,366.793,2795.152,352.204z M1830.219,240.356h69.754v271.288
+		h-69.754v-22.96c-22.721,17.3-51.062,27.544-82.312,27.544c-77.447,0-140.227-62.78-140.227-140.229s62.78-140.228,140.227-140.228
+		c31.25,0,59.592,10.244,82.312,27.543V240.356z M1830.219,376L1830.219,376c0-42.092-34.121-76.173-76.174-76.173
+		s-76.172,34.121-76.172,76.173c0,42.053,34.119,76.173,76.172,76.173C1796.137,452.173,1830.219,418.093,1830.219,376z
+		 M2151.85,143.815h69.756v367.869h-69.756v-22.96c-22.721,17.3-51.061,27.544-82.311,27.544
+		c-77.449,0-140.229-62.78-140.229-140.229s62.779-140.228,140.229-140.228c31.25,0,59.59,10.244,82.311,27.543V143.815z
+		 M2151.85,376c0-42.052-34.121-76.173-76.174-76.173c-42.051,0-76.172,34.121-76.172,76.173c0,42.053,34.08,76.173,76.172,76.173
+		C2117.729,452.173,2151.85,418.093,2151.85,376z M2545.469,511.645h69.754V240.356h-69.754V511.645z M2580.346,133.053
+		c-23.916,0-42.252,18.894-42.252,42.81c0,23.358,18.336,42.252,42.252,42.252s42.252-18.894,42.252-42.252
+		C2622.598,151.946,2604.262,133.053,2580.346,133.053z M3162.822,376c0,77.448-62.779,140.229-140.229,140.229
+		c-77.447,0-140.227-62.78-140.227-140.229s62.779-140.228,140.227-140.228C3100.043,235.772,3162.822,298.552,3162.822,376z
+		 M3098.768,376c0-42.052-34.121-76.173-76.174-76.173s-76.172,34.121-76.172,76.173c0,42.053,34.08,76.173,76.172,76.173
+		C3064.646,452.173,3098.768,418.093,3098.768,376z M1027.793,143.815H760.212v62.222h99.053v305.607h69.516V206.037h99.053v-62.222
+		H1027.793z M2381.006,437.345l-62.062-196.988h-73.264l93.074,271.288h83.945l93.631-271.288h-73.264L2381.006,437.345z
+		 M3265.023,285.956v-45.6h-69.914v271.288h69.914V348.976c0-29.457,18.895-43.927,48.35-43.927h38.266v-64.692h-32.684
+		C3293.363,240.356,3271.162,253.709,3265.023,285.956z"
+                />
+                <circle fill="#34E0A1" cx="356.749" cy="356.748" r="356.748" />
+                <path
+                  d="M577.095,287.152l43.049-46.836h-95.465c-47.792-32.646-105.51-51.659-167.931-51.659
+		c-62.342,0-119.899,19.054-167.612,51.659H93.432l43.049,46.836c-26.387,24.075-42.929,58.754-42.929,97.259
+		c0,72.665,58.914,131.578,131.579,131.578c34.519,0,65.968-13.313,89.446-35.077l42.172,45.919l42.172-45.879
+		c23.478,21.764,54.887,35.037,89.406,35.037c72.665,0,131.658-58.913,131.658-131.578
+		C620.024,345.866,603.483,311.188,577.095,287.152z M225.17,473.458c-49.188,0-89.047-39.859-89.047-89.047
+		s39.86-89.048,89.047-89.048c49.187,0,89.047,39.86,89.047,89.048S274.357,473.458,225.17,473.458z M356.788,381.82
+		c0-58.595-42.61-108.898-98.853-130.383c30.413-12.716,63.776-19.771,98.813-19.771s68.439,7.055,98.853,19.771
+		C399.399,272.962,356.788,323.226,356.788,381.82z M488.367,473.458c-49.188,0-89.048-39.859-89.048-89.047
+		s39.86-89.048,89.048-89.048s89.047,39.86,89.047,89.048S537.554,473.458,488.367,473.458z M488.367,337.694
+		c-25.79,0-46.677,20.887-46.677,46.677c0,25.789,20.887,46.676,46.677,46.676c25.789,0,46.676-20.887,46.676-46.676
+		C535.042,358.621,514.156,337.694,488.367,337.694z M271.846,384.411c0,25.789-20.887,46.676-46.676,46.676
+		s-46.676-20.887-46.676-46.676c0-25.79,20.887-46.677,46.676-46.677C250.959,337.694,271.846,358.621,271.846,384.411z"
+                />
+              </g>
+            </svg>
+          </div>
+
+          <!--nav-center-->
+
+          <div class="navbar-box2">
+            <div class="navbar-box2-1"><p>Discover</p></div>
+            <div class="navbar-box2-2"><p>Trips</p></div>
+            <div class="navbar-box2-3"><p>Review</p></div>
+            <div class="navbar-box2-4"><p>Forums</p></div>
+          </div>
+
+          <!--nav last-->
+
+          <div class="navbar-box3">
+            <div class="navbar-box3-1">
+              <div class="navbar-box3-1i">
+                <img src="./image/globe-network.png" alt="" />
+              </div>
+              <p>|</p>
+              <div class="navbar-box3-2i">
+                <p>INR</p>
+              </div>
+            </div>
+            <div class="navbar-box3-2">
+              <p>Sign in</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--main content-->
+    <main class="trip-page">
+      <div class="containerbox">
+        <div class="main-content">
+          <div class="main-content1">
+            <!--wheretogo-->
+            <div class="sec1">
+              <h1>Where To Go ?</h1>
+            </div>
+            <!--catogories-->
+            <div class="sec2-main">
+              <div class="sec2-catogories">
+                <div class="sec2-catogories1">
+                  <i class="fa-solid fa-house"></i>
+                  <p>Search All</p>
+                </div>
+
+                <div class="sec2-catogories2">
+                  <i class="fa-solid fa-bed"></i>
+                  <p>Hotels</p>
+                </div>
+
+                <div class="sec2-catogories3">
+                  <i class="fa-solid fa-ticket"></i>
+                  <p>Things to Do</p>
+                </div>
+                <div class="sec2-catogories4">
+                  <i class="fa-solid fa-utensils"></i>
+                  <p>Restaurants</p>
+                </div>
+                <div class="sec2-catogories5">
+                  <img src="./image/aeroplane.png" alt="" />
+                  <p>Flights</p>
+                </div>
+                <div class="sec2-catogories6">
+                  <img src="./image/rent.png" alt="" />
+                  <p>Holiday Homes</p>
+                </div>
+              </div>
+            </div>
+            <!--search bar-->
+            <div class="sec3-search">
+              <div class="sec3-searchbox">
+                <div class="sec3-search-1">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <input
+                    type="text"
+                    placeholder="Places to go, things to do,hotels"
+                  />
+                </div>
+                <div class="sec3-search-2">
+                  <p>Search</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--ui/ux-->
+        <div class="ad-box1">
+          <div class="box">
+            <img
+              src="./image/home-gai-entry-v2-dv.png"
+              alt="img"
+              class="box-img1"
+            />
+            <div class="box-sec1">
+              <p>Powered by AI</p>
+              <h4>BETA</h4>
+            </div>
+            <div class="box-sec2">
+              <h2>Get Customer recs for your next trip</h2>
+            </div>
+            <div class="box-sec3">
+              <p>
+                Find great eats,experiences and more-inspired by things you love
+              </p>
+            </div>
+            <div class="box-sec4">
+              <div class="box-sec4-1">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEcElEQVR4nN2Y+2/bVBTHDRISIPEa/wPwAw+hwc/7gS114mQ/8WzWVUMwCr8hYOnaTVkl2saPrJ3WNW5aCqxDaCDUlpeKVCisTXLvTdBo0m4dW9E6tckEqGuaOGnTJhcdTxWo+C7McR/iKx3Jso+PPzrnnnNtc9z/WVXi2KNVPnTYqUSjgkLmeDGyDAbHcA6ugc+mg/EtoWcFBRPXcZKt65vONw3NU/mnLO3AK7rB8bHv5ukbfZfzgoI1p4zxbhE/s+FgO7tidwkK7nUpRKsfSJUCsVWqxoq3tEB0lXoGUiXBTzRBwj0QY0PgbP7wDsjavuCk1oELZcHUdQb31AQn9WwKraMPbUTmyJt908tq9PbA1H9atEjrTk8vA6SlmRQk3FsTnMxWBBf7G7Km+4LmlEiPZQ0Ba85MWVVWuVGBwpq0taKdVmSP1A+mSqyHdZIV6hlI0tpggroUrBscw7lOwm4iT3+q5FQIqgjO1hx6DEYJq1vbx/LUHRinjZ9P0fi1NM0XirqNz6Rpw2dT1B2I6z6s7hYUotlb8COmAatE1FB35kqelTl3YJx+Gp6jLH0SmqVuNc7MJMxJXox4TAPCbgAD17BEA0k9c+XUcHZK9zWKcWxonroUgisAJCnlnGYYfH9XQi9rOf0yk6b7gwnDGMq5LBVknDQNaBfREnScUXCXn9Dc8mpZQPABX1Y3wzNMA/K+SAHWWiWA2tIq3csAhNi8GCmYz6CMb5wILxkGh1EyPlO+xOevpmlt94RhjLZQnsIzTAM6lehE8/CCYfBD/Ul9lJRT/dmLtH4wZRjj/eEb1OWPJkwDOvz4g/f6jTvw5piJ66OEpTNjs7oPa8y888VsSZBJt2lAmxh2V6sTWdZu0K4P6rg+SqBbYU2CQVkhc3ANysi6/xU1nrH5wtXmAf3hHbyIVlidrOqZhPe9pL7OoHHA4BjKequt7iQqUIj9XAt+mKtEgkJ+Pvrtn8wHqSbtyDd/UKdcwZBe0x5fuHZfVyJjNWB1IJ6BJVQxoNMbu9cuoQx8Z1gFJ/2YobyEFl/wh+/hrJBdwk2vffSrZhXgqx9e0hxy5AhnlXb7Yg84ZLTYHjIe2uptWNtYnjoknOa96H7OSjkU3PL6x5dzlQIe6J3KCQpu4qzWrraRBx0iyoojGdNwvh8W9bVnefbWxIuRt14OJNJmAV86FV/kRXSQ2yh5vfROQSGTjV//zvxGURl2+MvrJUEhFyAGt5HipciT8DuD9ZajGhj4OmSS41tDT3ObIUHCpw70XmLu0euttudi1q6gE9xmCQasXcFXj/6HUjfeLO1vu7wjd3ObqT3NoccdMtaOj+aYcP7RHAUfWyt6itsK2X3o0Isd44ud0X+/tcCbzPMnz2d5Cb3LbZkovcMpkyH4IbQe8ODpK0uCTIbBZ+sAOY7bK47dJ8j4mmcwVVyDq//qetEh4znYIrntILsv/IRdQlrL8AJt/n6BOiSUhTXKbSfZxJDT6SdZmJFVPiRw21G8iN4G22qOTdVf7CsDVER17/AAAAAASUVORK5CYII="
+                  alt="marker"
+                />
+                <p>Start a trip with AI</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--best restaruant-->
+        <div class="best-rest">
+          <div class="best-rest1">
+            <div class="best-rest1-d">
+              <h2>Treat yourself to an award-winning meal</h2>
+              <div class="best-rest1-2d">
+                <p>
+                  2024’s Travellers’ Choice Awards Best of the Best Restaurants
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--best rest pic-->
+          <div class="best-rest2">
+            <div class="best-rest2-d">
+              <div class="best-rest2-1d">
+                <img src="./image/caption-2.jpg" alt="img" />
+                <div class="a"><h2>Fine Dining</h2></div>
+              </div>
+              <div class="best-rest2-2d">
+                <img src="./image/caption-1.jpg" alt="img" />
+                <div class="b"><h2>Date Night</h2></div>
+              </div>
+              <div class="best-rest2-3d">
+                <img src="./image/caption-4.jpg" alt="img" />
+                <div class="c"><h2>Casual Dining</h2></div>
+              </div>
+              <div class="best-rest2-4d">
+                <img src="./image/caption-3.jpg" alt="img" />
+                <div class="d"><h2>Hidden Gems</h2></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--inspired place-->
+        <div class="best-rest">
+          <div class="best-rest1">
+            <div class="best-rest1-d">
+              <h2>Get inspired by our fave travel creators</h2>
+              <div class="best-rest1-2d">
+                <p>Tried-and-true guidance to fuel your next big trip</p>
+              </div>
+            </div>
+          </div>
+          <!--best rest pic-->
+          <div class="best-rest2">
+            <div class="best-rest2-d">
+              <div class="best-rest2-1d">
+                <img src="./image/caption-5.jpg" alt="img" />
+                <div class="a1">
+                  <h2>By Felicia Wong</h2>
+                  <p>An unforgettable Yellowstone road trip</p>
+                  <p>💚 30 items</p>
+                </div>
+              </div>
+
+              <div class="best-rest2-2d">
+                <img src="./image/bed-bike-barcelona.jpg" alt="img" />
+                <div class="b1">
+                  <h2>By Felicia Wong</h2>
+                  <p>A food-filled weekend in Chicago</p>
+                  <p>💚 30 items</p>
+                </div>
+              </div>
+
+              <div class="best-rest2-3d">
+                <img src="./image/caption-8.jpg" alt="img" />
+                <div class="c1">
+                  <h2>By Felicia Wong</h2>
+                  <p>Explore more great trips from all of our creators</p>
+                  <p>💚 30 items</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--activities and tickets-->
+        <div class="best-rest">
+          <div class="best-rest1">
+            <div class="best-rest1-d">
+              <h2>Get inspired by our fave travel creators</h2>
+              <div class="best-rest1-2d">
+                <p>Tried-and-true guidance to fuel your next big trip</p>
+              </div>
+            </div>
+          </div>
+          <!--best rest pic-->
+          <div class="best-rest2">
+            <div class="best-rest2-d">
+              <div class="best-rest2-1d">
+                <img src="./image/caption-10.jpg" alt="img" />
+                <div class="a1">
+                  <h3>Full-Day Ninh Binh Tour</h3>
+                  <p>🟢🟢 500</p>
+                  <p>Day Trips</p>
+                  <p>from ₹7,536.05 per adult</p>
+                </div>
+              </div>
+              <div class="best-rest2-2d">
+                <img src="./image/caption-16.jpg" alt="img" />
+                <div class="b1">
+                  <h3>Ninh Binh Day Tour To Visit Hoa</h3>
+                  <p>🟢🟢 600</p>
+                  <p>Day Trips</p>
+                  <p>from ₹7,536.05 per adult</p>
+                </div>
+              </div>
+              <div class="best-rest2-3d">
+                <img src="./image/caption-12.jpg" alt="img" />
+                <div class="c1">
+                  <h3>Full-Day Ninh Binh Tour</h3>
+                  <p>🟢🟢🟢 700</p>
+                  <p>Day Trips</p>
+                  <p>from ₹7,536.05 per adult</p>
+                </div>
+              </div>
+              <div class="best-rest2-4d">
+                <img src="./image/caption-11.jpg" alt="img" />
+                <div class="d1">
+                  <h3>Ninh Binh Day Tour To Visit Hoa</h3>
+                  <p>🟢🟢🟢 800</p>
+                  <p>Day Trips</p>
+                  <p>from ₹7,536.05 per adult</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--explore-->
+        <div class="best-rest">
+          <div class="best-rest1">
+            <div class="best-rest1-d">
+              <h2>More to Explore</h2>
+              <div class="best-rest1-2d"></div>
+            </div>
+          </div>
+          <!--best rest pic-->
+          <div class="best-rest2">
+            <div class="best-rest2-d">
+              <div class="best-rest2-1d">
+                <img src="./image/1.jpg" alt="img" />
+                <div class="a1">
+                  <p>Where Bali’s best chefs go on their days off</p>
+                </div>
+              </div>
+
+              <div class="best-rest2-2d">
+                <img src="./image/2.jpg" alt="img" />
+                <div class="b1">
+                  <p>A food-filled weekend in Chicago</p>
+                </div>
+              </div>
+
+              <div class="best-rest2-3d">
+                <img src="./image/6.jpg" alt="img" />
+                <div class="c1">
+                  <p>Explore more great trips from all of our creators</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--from tamilnadu-->
+        <div class="best-rest">
+          <div class="best-rest1">
+            <div class="best-rest1-d">
+              <h2>Dream Your Next Trip</h2>
+              <div class="best-rest1-2d">
+                <p>Weekend getaways from Salem</p>
+              </div>
+            </div>
+          </div>
+          <!--best rest pic-->
+          <div class="best-rest2">
+            <div class="best-rest2-d">
+              <div class="best-rest2-1d">
+                <img src="./image/chennai-madras.jpg" alt="img" />
+                <div class="a"><h2>Chennai , India</h2></div>
+              </div>
+              <div class="best-rest2-2d">
+                <img src="./image/kovai-kutralam-falls.jpg" alt="img" />
+                <div class="b"><h2>Coimbatore, India</h2></div>
+              </div>
+              <div class="best-rest2-3d">
+                <img src="./image/taken-on-the-float-festival.jpg" alt="img" />
+                <div class="c"><h2>Madurai, Indiag</h2></div>
+              </div>
+              <div class="best-rest2-4d">
+                <img src="./image/upper-bhavani-lake.jpg" alt="img" />
+                <div class="d"><h2>Ooty , India</h2></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--internation tour-->
+        <div class="best-rest">
+          <div class="best-rest1">
+            <div class="best-rest1-d">
+              <h2>Top destinations for your next holiday</h2>
+              <div class="best-rest1-2d">
+                <p>Here's where your fellow travellers are headed</p>
+              </div>
+            </div>
+          </div>
+          <!--best rest pic-->
+          <div class="best-rest2">
+            <div class="best-rest2-d">
+              <div class="best-rest2-1d">
+                <img src="./image/a.jpg" alt="img" />
+                <div class="a"><h2>Bangkok, Thailand</h2></div>
+              </div>
+              <div class="best-rest2-2d">
+                <img src="./image/b.jpg" alt="img" />
+                <div class="b"><h2>Singapore</h2></div>
+              </div>
+              <div class="best-rest2-3d">
+                <img src="./image/c.jpg" alt="img" />
+                <div class="c"><h2>Mumbai, India</h2></div>
+              </div>
+              <div class="best-rest2-4d">
+                <img src="./image/d.jpg" alt="img" />
+                <div class="d"><h2>Bali, Indonesia</h2></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
