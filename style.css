@@ -647,9 +647,16 @@
   .sec1 h1 {
     font-size: 17px;
   }
+  .sec1{
+    display: flex;
+    margin-left: 20%;
+  }
   .main-content1 {
-    width: 50%;
-    margin-left: 60%;
+    width: 41%;
+    margin-left: 49%;
+  }
+  .sec2-catogories3{
+    display: none;
   }
   .navbar-box2-1 {
     display: none;
@@ -672,8 +679,8 @@
     display: none;
   }
   .best-rest2-d {
-    width: 50%;
-    margin-left:54%;
+    width: 40%;
+    margin-left:50%;
   }
   .bg-pic {
     display: none;
