@@ -585,6 +585,53 @@
 .footer-sec4-1 {
   width: 64%;
 }
+
+/*res-footer*/
+.res-footer {
+  display: none;
+}
+.res9 img {
+  width: 30px;
+}
+.res1 {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.res2 {
+  margin-top: 10px;
+  border: solid #f2f2f2 1px;
+  width: 220px;
+  border-radius: 10px;
+  padding: 1px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.sel1 {
+  border: none;
+  outline: none;
+  font-weight: 200;
+  font-size: 12px;
+  padding: 1px;
+  border-radius: 10px;
+  width: 220px;
+}
+.sel2 {
+  border: none;
+  outline: none;
+  font-weight: 200;
+  font-size: 12px;
+  padding: 4px;
+  border-radius: 10px;
+  width: 220px;
+}
+.res9 {
+  display: flex;
+  gap: 30px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
 /* hover function*/
 .navbar-box2 div:hover {
   border: solid #f2f2f2 1px;
@@ -630,9 +677,8 @@
     justify-content: center;
     align-items: center;
   }
-  .sec2-catogories6{
+  .sec2-catogories6 {
     display: none;
-    
   }
   .container-nav {
     justify-content: center;
@@ -647,7 +693,7 @@
   .sec1 h1 {
     font-size: 17px;
   }
-  .sec1{
+  .sec1 {
     display: flex;
     margin-left: 20%;
   }
@@ -655,7 +701,7 @@
     width: 41%;
     margin-left: 49%;
   }
-  .sec2-catogories3{
+  .sec2-catogories3 {
     display: none;
   }
   .navbar-box2-1 {
@@ -672,15 +718,14 @@
   }
   .best-rest1 {
     margin-left: 51%;
-
   }
- 
-  .best-rest2-3d{
+
+  .best-rest2-3d {
     display: none;
   }
   .best-rest2-d {
     width: 40%;
-    margin-left:50%;
+    margin-left: 50%;
   }
   .bg-pic {
     display: none;
@@ -741,9 +786,21 @@
     border-radius: 3px;
   }
   .container-nav {
-    position:static;
+    position: static;
     margin-top: 0%;
     top: 0px;
-    z-index: 1; 
+    z-index: 1;
+  }
+  .trip-page {
+    display: flex;
+    margin-left: 200%;
+    justify-content: center;
+    align-items: center;
+  }
+  .res-footer {
+    display: block;
+    margin-top: 30px;
+    width: 350px;
+    margin-left: 50px;
   }
 }
