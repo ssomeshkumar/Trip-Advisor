@@ -677,6 +677,10 @@
     justify-content: center;
     align-items: center;
   }
+  .main-content{
+
+    width:90%;
+  }
   .sec2-catogories6 {
     display: none;
   }
@@ -687,7 +691,11 @@
     background-color: transparent;
     border: none;
   }
-  .navbar-box1 svg {
+  .navbar{
+    display: flex;
+    margin-left: 50px;
+  }
+  .navbar-box{
     margin-left: 0px;
   }
   .sec1 h1 {
