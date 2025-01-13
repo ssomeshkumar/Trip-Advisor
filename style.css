@@ -668,7 +668,58 @@
   cursor: pointer;
 }
 
-/* responsivi design*/
+/*responsive*/
+
+@media screen and (max-width:1024px) {
+  .navbar-box{
+    display: flex;
+    justify-content: space-around;
+  }
+  .box p{
+    font-size: large;
+  }
+  .box-img1{
+    position: relative;
+    width: 85%;
+  }
+
+  .box-sec4{
+    width: 16%;
+    padding: 10px;
+  }
+  .box-sec3{
+    position: absolute;
+    top: 170px;
+  }
+  .box-sec2{
+    position: absolute;
+    top: 120px;
+  }
+  .best-rest1-d{
+    margin-left: 82px;
+  }
+  .best-rest2-d{
+    margin-left: 82px;
+    width: fit-content;
+  }
+  .best-rest2{
+    width: 90%;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsivi design
 
 @media screen and (max-width: 600px) {
   .body {
