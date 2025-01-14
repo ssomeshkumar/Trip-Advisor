@@ -671,6 +671,13 @@
 /*responsive*/
 
 @media screen and (max-width:1024px) {
+  .body1{
+    width: 100px;
+    width: fit-content; 
+  }
+  .navbar{
+    
+  }
   .navbar-box{
     display: flex;
     justify-content: space-around;
@@ -703,9 +710,17 @@
     width: fit-content;
   }
   .best-rest2{
-    width: 90%;
+    width: 92%;
   }
-  
+  .bg-pic{
+    display: flex;
+    margin-left: 4%;
+    width: 94%;
+  }
+  .footer{
+    width: 94%;
+    margin-left: 4%;
+  }
 }
 
 
